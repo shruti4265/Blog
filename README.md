@@ -1,4 +1,5 @@
 Full-Stack Blog Platform
+
 This repository contains the source code for a full-stack blog application. The project features a classic vanilla JavaScript frontend, a robust backend powered by Node.js and Express, and a PostgreSQL database for persistent data storage.
 
 This project serves as an excellent example of a traditional client-server architecture.
