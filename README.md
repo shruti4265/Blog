@@ -52,7 +52,7 @@ Node.js installed
 A running PostgreSQL database instance
 
 Check it out here ->
-https://blog-website-mw6p.onrender.com/
+https://blog-pfrd.onrender.com/
 
 Setup Instructions
 Clone the repository:
