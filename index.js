@@ -14,7 +14,7 @@ app.use(express.static("public"));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.get("/",async (req,res)=>{
     try{
-        let result = await db.query("SELECT * from posts");
+        let result = await db.query("SELECT * from posts ORDER BY id ASC");
         let posts = result.rows.map(row => ({title:row.title,content:row.content}));
         res.render("index.ejs",{posts:posts});
     }catch(err){
